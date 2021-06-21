@@ -34,4 +34,6 @@ This file will first import the functions.py and train.py and with that it will 
 
 Now, doing this will create problem as the functions triggered will stop the ongoing imshow functions and will crash the window showing the camera. For this we put the whole cam() in one thread and all the three triggered functions in individual separated threads. Like this they will operate independently without disturbing other processes. 
 
+
+
 And that's it your program is sending mails and launching aws instances.
