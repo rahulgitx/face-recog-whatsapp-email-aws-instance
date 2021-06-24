@@ -1,6 +1,8 @@
 # face-recog-whatsapp-email-aws-instance
 This repo consists of LBPH face recognition code that recognises first person's face and send a whatsapp message and email with the picture of person detected with his/her name. On recognizing second person it launches an ec2 instance with 5GiB volume attached to it.
 
+Follow this link to see demo: [face-recog-whatsapp-email-aws-instance](https://www.linkedin.com/posts/bhardwaj-rahul_internship-aws-summer-activity-6812743957651435520-yuxw)
+
 ## How to use this repo
 * Keep all the above files in the same folder (except pywhatkit_dbs.txt. This file will be created automatically to keep the logs of the messages sent through whatsapp)
 * Go to functions.py and fill the credentials for sending email and whatsapp. Go through the instructions provided in the comments.
